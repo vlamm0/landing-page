@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .awesome .image {
@@ -208,5 +208,5 @@ li {
   }
 
   button, .box {
-    border-radius: 10px;
+    border-radius: 5px;
   }
