@@ -151,6 +151,9 @@ body {
 
 .footer {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 /* Text */
@@ -202,4 +205,8 @@ li {
     gap: 10px;
     padding: 0px;
     margin: 0px;
+  }
+
+  button, .box {
+    border-radius: 10px;
   }
