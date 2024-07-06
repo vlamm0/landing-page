@@ -5,6 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Sections */
@@ -20,7 +22,29 @@ body {
 
 .awesome {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+.awesome .image {
+    background-color: grey;
+    display: flex;
+    padding: 100px;
+    margin: 60px 0px;
+
+}
+
+.awesome .left {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    align-items: start;
+}
+
 
 .random {
     background-color: white;
@@ -43,12 +67,16 @@ h1 {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
 
 }
 
 .awesome p, .header li {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0px;
+    padding: 0px;
 }
 
 button, .container {
