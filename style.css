@@ -45,6 +45,10 @@ body {
     align-items: start;
 }
 
+.awesome button {
+    border: none;
+}
+
 
 .random {
     background-color: white;
@@ -99,15 +103,50 @@ body {
     flex-wrap: wrap;
     margin: 75px 75px 5px 0px;
     width: 750px;
-    /* text-align: center; */
     align-self: center;
 }
+
 .quote h3 {
     margin-left: auto;
     margin-right: 75px;
 }
 .sign-up {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.sign-up h5, .sign-up p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sign-up .container {
+    width: 900px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up .container .left {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    /* align-items: center; */
+    /* flex-grow: 2; */
+}
+
+.sign-up .container button {
+    /* flex: auto; */
+    justify-content: center;
+    padding: 10px;
+    width: 150px;
+    /* height: 25px; */
+    border: 2px solid white;
+    /* margin-right: 50px; */
 }
 
 .footer {
